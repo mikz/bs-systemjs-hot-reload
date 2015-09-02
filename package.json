@@ -1,0 +1,38 @@
+{
+  "name": "bs-systemjs-hot-reload",
+  "version": "0.1.0",
+  "description": "Brosersync SystemJS Hot Reload Plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikz/bs-systemjs-hot-reload.git"
+  },
+  "keywords": [
+    "browsersync",
+    "systemjs",
+    "hot",
+    "reload"
+  ],
+  "author": "Michal Cichra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikz/bs-systemjs-hot-reload/issues"
+  },
+  "homepage": "https://github.com/mikz/bs-systemjs-hot-reload#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.23",
+    "babel-eslint": "^4.1.1",
+    "babel-loader": "^5.3.2",
+    "browser-sync": "^2.8.2",
+    "chai": "^3.2.0",
+    "eslint": "^1.3.1",
+    "eslint-config-standard": "^4.1.0",
+    "eslint-plugin-standard": "^1.3.0",
+    "mocha": "^2.3.0",
+    "webpack": "^1.12.0"
+  }
+}
